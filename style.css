@@ -1,0 +1,48 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(19, 17, 19);
+  margin-bottom: 30px;
+  
+}
+body:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.board {
+  display: inline-block;
+  margin: 20px;
+}
+.tile {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(18, 18, 113);
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  cursor: pointer;
+
+  /* Default color for unrevealed tiles */
+  background-color:sil;
+
+  /* Default color for unrevealed tile text */
+  color: #4b0c0c;
+}
+.revealed {
+  /* Color for revealed tiles */
+  background-color: rgb(148, 59, 14);
+
+  /* Color for revealed tile text */
+  color: #000;
+}
+.mine {
+  /* Color for mines */
+  background-color: #4b1414;
+}
+h1{
+    color: rgb(164, 56, 2);
+    margin-top: 40px;
+    
+    
+}
